@@ -18,11 +18,11 @@ import (
 	"strings"
 	"time"
 
-	"demo-api-scalar-galaxy/internal"
-	"demo-api-scalar-galaxy/internal/apierror"
-	"demo-api-scalar-galaxy/internal/apiform"
-	"demo-api-scalar-galaxy/internal/apiquery"
-	"demo-api-scalar-galaxy/internal/param"
+	"github.com/amritk/galaxy-staging-go/internal"
+	"github.com/amritk/galaxy-staging-go/internal/apierror"
+	"github.com/amritk/galaxy-staging-go/internal/apiform"
+	"github.com/amritk/galaxy-staging-go/internal/apiquery"
+	"github.com/amritk/galaxy-staging-go/internal/param"
 )
 
 func getDefaultHeaders() map[string]string {

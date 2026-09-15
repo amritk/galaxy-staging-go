@@ -25,7 +25,7 @@ import (
 	"context"
 	"fmt"
 
-	sdk "demo-api-scalar-galaxy"
+	sdk "github.com/amritk/galaxy-staging-go"
 )
 
 client := sdk.NewClient()

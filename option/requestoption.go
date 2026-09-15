@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"demo-api-scalar-galaxy/internal/requestconfig"
+	"github.com/amritk/galaxy-staging-go/internal/requestconfig"
 	"github.com/tidwall/sjson"
 )
 

@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"demo-api-scalar-galaxy/internal/param"
+	"github.com/amritk/galaxy-staging-go/internal/param"
 )
 
 var encoders sync.Map // map[encoderEntry]encoderFunc

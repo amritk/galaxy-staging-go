@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	"demo-api-scalar-galaxy/internal/apijson"
+	"github.com/amritk/galaxy-staging-go/internal/apijson"
 )
 
 // Error represents an error that originates from the API, i.e. when a request is
