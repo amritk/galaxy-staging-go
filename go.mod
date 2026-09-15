@@ -1,4 +1,4 @@
-module demo-api-scalar-galaxy
+module github.com/amritk/galaxy-staging-go
 
 go 1.22
 

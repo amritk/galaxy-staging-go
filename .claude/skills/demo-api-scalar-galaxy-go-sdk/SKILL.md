@@ -1,16 +1,16 @@
 ---
 name: demo-api-scalar-galaxy-go-sdk
-description: "Go SDK for Demo API (Scalar Galaxy). Use when writing Go code that calls Demo API (Scalar Galaxy) with the demo-api-scalar-galaxy package: installing it, constructing and authenticating the client, and calling API operations."
+description: "Go SDK for Demo API (Scalar Galaxy). Use when writing Go code that calls Demo API (Scalar Galaxy) with the github.com/amritk/galaxy-staging-go package: installing it, constructing and authenticating the client, and calling API operations."
 ---
 
 # Demo API (Scalar Galaxy) Go SDK
 
-Generated Go client for Demo API (Scalar Galaxy), published as `demo-api-scalar-galaxy`. Use the generated client instead of hand-writing HTTP requests.
+Generated Go client for Demo API (Scalar Galaxy), published as `github.com/amritk/galaxy-staging-go`. Use the generated client instead of hand-writing HTTP requests.
 
 ## Install
 
 ```sh
-go get demo-api-scalar-galaxy
+go get github.com/amritk/galaxy-staging-go
 ```
 
 ## Client setup and authentication
@@ -20,7 +20,7 @@ import (
 	"context"
 	"fmt"
 
-	sdk "demo-api-scalar-galaxy"
+	sdk "github.com/amritk/galaxy-staging-go"
 )
 
 client := sdk.NewClient()
@@ -47,8 +47,8 @@ import (
 	"fmt"
 	"os"
 
-	sdk "demo-api-scalar-galaxy"
-	"demo-api-scalar-galaxy/option"
+	sdk "github.com/amritk/galaxy-staging-go"
+	"github.com/amritk/galaxy-staging-go/option"
 )
 
 func main() {
@@ -87,7 +87,7 @@ if err != nil {
 	panic(err)
 }
 
-// imports: "context", "errors", "fmt", sdk "demo-api-scalar-galaxy"
+// imports: "context", "errors", "fmt", sdk "github.com/amritk/galaxy-staging-go"
 ```
 
 ## Requirements

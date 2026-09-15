@@ -25,7 +25,7 @@ The full API of this library can be found in [api.md](./api.md).
 ## Installation
 
 ```sh
-go get demo-api-scalar-galaxy
+go get github.com/amritk/galaxy-staging-go
 ```
 
 <br />
@@ -40,8 +40,8 @@ import (
 	"fmt"
 	"os"
 
-	sdk "demo-api-scalar-galaxy"
-	"demo-api-scalar-galaxy/option"
+	sdk "github.com/amritk/galaxy-staging-go"
+	"github.com/amritk/galaxy-staging-go/option"
 )
 
 func main() {
@@ -111,7 +111,7 @@ if err != nil {
 	panic(err)
 }
 
-// imports: "context", "errors", "fmt", sdk "demo-api-scalar-galaxy"
+// imports: "context", "errors", "fmt", sdk "github.com/amritk/galaxy-staging-go"
 ```
 
 Documented error statuses: `400`, `401`, `403`, `404`, `409`, `422`.
@@ -129,7 +129,7 @@ client := sdk.NewClient(
 	option.WithRequestTimeout(60*time.Second),
 )
 
-// imports: sdk "demo-api-scalar-galaxy", "demo-api-scalar-galaxy/option", "time"
+// imports: sdk "github.com/amritk/galaxy-staging-go", "github.com/amritk/galaxy-staging-go/option", "time"
 ```
 
 | Option | Type | Default | Description |

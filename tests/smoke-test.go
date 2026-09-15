@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	sdk "demo-api-scalar-galaxy"
-	"demo-api-scalar-galaxy/option"
+	sdk "github.com/amritk/galaxy-staging-go"
+	"github.com/amritk/galaxy-staging-go/option"
 )
 
 // Smoke test: calls every generated operation once to confirm the SDK can reach each endpoint.
